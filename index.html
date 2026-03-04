@@ -16,8 +16,20 @@
       </div>
     </header>
     
-    <div class="board-wrapper">
-      <canvas id="board" width="600" height="600"></canvas>
+    <div class="main-content">
+      <aside class="rules-panel">
+        <h3>游戏规则</h3>
+        <ul>
+          <li>黑棋先行，黑白双方轮流落子</li>
+          <li>点击棋盘交叉点即可落子</li>
+          <li>横、竖、斜任一方向先连成五子者获胜</li>
+          <li>点击「重新开始」可开始新局</li>
+        </ul>
+      </aside>
+      
+      <div class="board-wrapper">
+        <canvas id="board" width="600" height="600"></canvas>
+      </div>
     </div>
     
     <footer class="game-footer">
